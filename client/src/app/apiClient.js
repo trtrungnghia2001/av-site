@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiClient = axios.create({
-  baseURL: "http://localhost:5000/",
+  baseURL: process.env.REACT_APP_DOMAIN_URL,
   headers: {
     "Content-Type": "multipart/form-data",
   },
