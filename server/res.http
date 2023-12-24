@@ -1,0 +1,25 @@
+GET http://localhost:5000/actor/get-all?page=2&limit=60
+
+###
+GET http://localhost:5000/actor/get-id/67675441-48f4-475f-9613-3f48aded5245
+ 
+###
+POST http://localhost:5000/actor/add-one
+Content-Type: application/json
+
+{
+    "name": "cacascbasvbcisa",
+    "dfads": "111"
+}
+
+###
+PUT http://localhost:5000/actor/update-id/67675441-48f4-475f-9613-3f48aded5245
+Content-Type: application/json
+
+{
+    "name": "testvddcacsscacs",
+    "dfads": "111"
+}
+
+###
+DELETE http://localhost:5000/actor/delete-id/4d2c7146-6d3c-4da9-9d7f-8a09acff5d3b
